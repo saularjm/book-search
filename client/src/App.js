@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
-
 import NoMatch from "./pages/NoMatch";
 import Search from "./pages/Search";
 import Saved from "./pages/Saved";

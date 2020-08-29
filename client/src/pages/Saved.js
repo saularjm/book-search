@@ -3,10 +3,13 @@ import API from "../utils/API";
 import List from "../components/List";
 
 class Saved extends Component {
+
+    // Set state
     state = {
         savedBooks: [],
     }
 
+    // When component mounts, set state to saved books to display
     componentDidMount() {
         API.savedBooks()
             .then(savedBooks => this.setState({ savedBooks: savedBooks }))
